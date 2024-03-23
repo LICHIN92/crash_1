@@ -32,11 +32,7 @@ a{
     padding:0 30px;
     
 }
-#checkbox{
-    /* visibility: hidden;
-    display: none; */
-    background-color: brown;
-}
+
 .navbar{
     position: relative;
     display:flex;
@@ -203,7 +199,7 @@ label #btn,label #cancel{
         display: block;
         
     }
-    ul{
+    .navbar .links ul{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -221,7 +217,7 @@ label #btn,label #cancel{
     .links ul li a{
         font-size: 17px;
     }
-    #check:checked ~ ul{
+    #check:checked ~ .links ul{
         left: 0;
     }
     #check:checked ~ label #btn{
